@@ -1,0 +1,6 @@
+<?
+$sSectionName = "iblock";
+$arDirProperties = Array(
+
+);
+?>

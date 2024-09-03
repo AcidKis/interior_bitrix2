@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Каталог", 
+		"/products", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кухни", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарнитуры", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Спальни", 
+		"", 
+		Array(), 
+		Array("FROM_IBLOCK"=>"1", "IS_PARENT"=>"1", "DEPTH_LEVEL"=>"1"), 
+		"" 
+	),
+	Array(
+		"Односпальные", 
+		"", 
+		Array(), 
+		Array("FROM_IBLOCK"=>"1", "IS_PARENT"=>"0", "DEPTH_LEVEL"=>"2"), 
+		"" 
+	),
+	Array(
+		"Двухспальные", 
+		"", 
+		Array(), 
+		Array("FROM_IBLOCK"=>"1", "IS_PARENT"=>"0", "DEPTH_LEVEL"=>"2"), 
+		"" 
+	),
+	Array(
+		"Детские", 
+		"", 
+		Array(), 
+		Array("FROM_IBLOCK"=>"1", "IS_PARENT"=>"0", "DEPTH_LEVEL"=>"2"), 
+		"" 
+	),
+	Array(
+		"Виранды", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
